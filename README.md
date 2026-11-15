@@ -1,4 +1,15 @@
-# Event-Driven Network Protocols & RISC-V Virtual Memory
+<div align="center">
+
+# ⚙️ Event-Driven Network Protocols & RISC-V Virtual Memory
+
+**Low-level systems and network programming projects engineered from scratch in C (C23) and RISC-V OS internals with zero third-party dependencies.**
+
+![C23](https://img.shields.io/badge/Language-C23_%26_RISC--V_ASM-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Kernel](https://img.shields.io/badge/Kernel-xv6--riscv_(Sv39_MMU)-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Networking](https://img.shields.io/badge/Networking-POSIX_poll(2)_%7C_TCP_%7C_UDP-FF6600?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-44cc11?style=for-the-badge)
+
+</div>
 
 Low-level systems and network programming projects built from scratch in **C (C23)** and **RISC-V OS internals** with zero third-party libraries—spanning **virtual memory & trap handling (`xv6-riscv`)**, **peer-to-peer LAN multiplayer networking with a custom reliable UDP protocol (`Mastermind`)**, and a **non-blocking HTTP/1.1 CLI client (`Tempest`)**.
 
