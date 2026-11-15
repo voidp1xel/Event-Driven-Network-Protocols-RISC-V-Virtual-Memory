@@ -1,0 +1,24 @@
+# Build artifacts
+*.o
+*.d
+*.a
+*.dSYM/
+
+# Networking binaries & runtime logs
+networking/tempest/tempest
+networking/mastermind/mastermind
+log.txt
+networking/mastermind/log.txt
+
+# Environment & secrets
+.env
+.env.*
+
+# Editor & OS metadata
+*~
+*.swp
+.DS_Store
+Thumbs.db
+compile_commands.json
+.cache/
+.vscode/
